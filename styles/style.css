@@ -220,3 +220,24 @@ nav {
     font-size: 20px;
     color: #727272;
 }
+
+/* ---------------------- sponsors section styles ----------------------- */
+.sponsors-section {
+    text-align: center;
+    margin-bottom: 130px;
+}
+.sponsor-title {
+    font-weight: 700;
+    font-size: 45px;
+}
+.sponsor-description {
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+.sponsors {
+    display: flex;
+    justify-content: space-between;
+}
