@@ -241,3 +241,18 @@ nav {
     display: flex;
     justify-content: space-between;
 }
+
+/* -------------------------- footer styles ------------------------------ */
+footer {
+    margin-bottom: 150px;
+    text-align: center;
+    background-color: #FFF4E7;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 40px 0;
+    border-radius: 10px;
+}
+footer p {
+    font-size: 20px;
+    color: #424242;
+}
