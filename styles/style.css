@@ -1,0 +1,70 @@
+/* -------------------------- fonts import ------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+/* ------------------------- common styles ------------------------- */
+* {
+    margin: 0;
+}
+body {
+    font-family: 'Work Sans', sans-serif;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10%; */
+}
+
+/* ------------------------- header styles ------------------------- */
+header {
+    background-color: #FF900E1A;
+    padding: 2% 10%;
+    text-align: center;
+}
+
+/* --------------------------nav bar styles ------------------------ */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-title {
+    font-weight: 700;
+    font-size: 45px;
+}
+.nav-buttons {
+    display: flex;
+    gap: 50px;
+}
+.nav-buttons p {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+/* -------------------------- banner styles ------------------------- */
+.banner-title {
+    font-weight: 700;
+    font-size: 64px;
+    margin: 0 30%;
+    margin-top: 80px;
+    margin-bottom: 25px;
+}
+.banner-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin: 0 20%;
+}
+.banner-button {
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+    border: none;
+    background-color: #FF900E;
+    padding: 20px 25px;
+    border-radius: 10px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+.banner-image img {
+    width: 100%;
+    height: auto;
+}
