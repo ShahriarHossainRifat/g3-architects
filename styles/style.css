@@ -75,12 +75,13 @@ nav {
 }
 
 /* --------------------- quick list section styles ------------------ */
-.quick-list {
+.quick-list-section {
     display: flex;
     align-items: center;
     margin-top: 85px;
     margin-bottom: 30px;
     gap: 73px;
+    padding: 0 5%;
 }
 .quick-list-images {
     display: grid;
@@ -105,4 +106,76 @@ nav {
     font-weight: 400;
     font-size: 16px;
     margin: 25px 0;
+}
+
+/* ----------------------- features section styles -------------------- */
+.features-section {
+    margin: 100px 0;
+}
+.features {
+    display: flex;
+    gap: 150px;
+}
+.features h3::before {
+    content: "";
+    height: 90px;
+    width: 4px;
+    background-color: #FF900E;
+    display: block;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.features-title {
+    font-weight: 700;
+    font-size: 45px;
+}
+.features-title-with-style {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.features-description {
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+.all-features {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.single-feature {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 30px;
+    border-radius: 10px;
+}
+.single-feature-title {
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.single-feature-description {
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+}
+.ten-year-button {
+    background-color: #FF900E;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 45px;
+    margin-left: 39.5%;
+    margin-top: -7.5%;
+    position: absolute;
+}
+.ten-year-button h2 {
+    font-weight: 700;
+    font-size: 65px;
+}
+.ten-year-button p {
+    font-weight: 500;
+    font-size: 25px;
 }
