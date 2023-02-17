@@ -179,3 +179,44 @@ nav {
     font-weight: 500;
     font-size: 25px;
 }
+
+/* ----------------------- facts section styles ----------------------- */
+.facts-section {
+    margin: 150px 0;
+}
+.facts-title {
+    font-weight: 700;
+    font-size: 45px;
+}
+.facts-description {
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 24px;
+    margin-bottom: 100px;
+    width: 40%;
+}
+.all-facts {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+.single-fact {
+    border: 1px solid #FF900E;
+    border-radius: 10px;
+    padding: 50px 35px;
+}
+.single-fact img {
+    width: 45px;
+}
+.single-fact-title {
+    font-weight: 600;
+    font-size: 45px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.single-fact-description {
+    font-weight: 600;
+    font-size: 20px;
+    color: #727272;
+}
