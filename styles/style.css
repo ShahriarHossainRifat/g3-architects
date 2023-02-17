@@ -206,6 +206,14 @@ nav {
     border-radius: 10px;
     padding: 50px 35px;
 }
+.single-fact {
+    background: linear-gradient(#FF900E 0 0) var(--p, 0) / var(--p, 0) no-repeat;
+    transition: .4s, background-position 0s;
+}
+.single-fact:hover {
+    --p: 100%;
+    color: #fff;
+}
 .single-fact img {
     width: 45px;
 }
