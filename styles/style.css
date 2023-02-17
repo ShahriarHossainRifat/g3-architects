@@ -12,6 +12,18 @@ body {
     align-items: center;
     margin: 0 10%; */
 }
+main {
+    margin: 0 10%;
+}
+.btn-primary {
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+    border: none;
+    background-color: #FF900E;
+    padding: 20px 25px;
+    border-radius: 10px;
+}
 
 /* ------------------------- header styles ------------------------- */
 header {
@@ -54,17 +66,43 @@ nav {
     margin: 0 20%;
 }
 .banner-button {
-    font-weight: 600;
-    font-size: 20px;
-    color: white;
-    border: none;
-    background-color: #FF900E;
-    padding: 20px 25px;
-    border-radius: 10px;
     margin-top: 25px;
     margin-bottom: 50px;
 }
 .banner-image img {
     width: 100%;
     height: auto;
+}
+
+/* --------------------- quick list section styles ------------------ */
+.quick-list {
+    display: flex;
+    align-items: center;
+    margin-top: 85px;
+    margin-bottom: 30px;
+    gap: 73px;
+}
+.quick-list-images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 24px;
+    row-gap: 24px;
+}
+.quick-list-title {
+    font-weight: 700;
+    font-size: 45px;
+}
+.low-opacity-text {
+    color: #727272;
+    font-weight: 500;
+    font-size: 45px;
+}
+.quick-list-title.highlighted-text {
+    color: #FF900E;
+}
+.quick-list-description {
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 25px 0;
 }
