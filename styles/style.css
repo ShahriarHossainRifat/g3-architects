@@ -256,3 +256,77 @@ footer p {
     font-size: 20px;
     color: #424242;
 }
+
+/* --------------------- Responsive Device Layout ------------------------ */
+
+/* --------------------------- Small Device ------------------------------ */
+@media screen and (max-width: 688px) {
+    nav {
+        align-items: normal;
+        margin-top: 10%;
+    }
+    .nav-buttons {
+        flex-direction: column;
+        text-align: right;
+    }
+    .nav-title {
+        text-align: left;
+        font-size: 200%;
+    }
+    .banner-title {
+        font-size: 320%;
+        text-align: center;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .banner-description {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .quick-list-section {
+        flex-direction: column-reverse;
+        padding: 0 0;
+    }
+    .quick-list-images {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .quick-list-images img {
+        width: 100%;
+        height: auto;
+    }
+    .features {
+        flex-direction: column;
+        gap: 50px;
+    }
+    .features-image {
+        width: 100%;
+    }
+    .features-image img {
+        width: 100%;
+        height: auto;
+    }
+    .features-title-with-style {
+        align-items: normal;
+    }
+    .ten-year-button {
+        display: none;
+    }
+    .all-facts {
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    .facts-description {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .sponsors {
+        flex-direction: column;
+        row-gap: 50px;
+    }
+    .sponsors img {
+        width: 70%;
+    }
+    footer {
+        margin-bottom: 50px;
+    }
+}
